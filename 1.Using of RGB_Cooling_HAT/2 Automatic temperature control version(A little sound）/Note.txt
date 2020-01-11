@@ -1,5 +1,0 @@
-﻿Automatic temperature control version controls the fan according to the CPU temperature of the Raspberry Pi, and supports adjusting the fan speed, but there is a little noise, similar to the buzzer sound; 
-
-The reason is that the fan is running, because the PWM output is a square wave, causing the fan is not fully be opened  at the most of the time, so the coil inside the fan makes a sound. This noise is not generated only when the motor is rotating at full speed.
-
-If you can't accept this little noise, it is recommended to use[1 Temperature control switch version]
